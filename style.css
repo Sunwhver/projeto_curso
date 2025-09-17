@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* configuração do plano de fundo - roxo - da página */
 body {
   background: url(/projeto_curso/assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -11,25 +12,30 @@ body {
   background-size: cover;
 }
 
+/* configuração de estilo padrão para fonte e cor de textos */
 body * {
   font-family: "Inter", sans-serif;
   color: #fff;
 }
 
+/* essa é a configuração da caixa padrão onde colocamos todos os elementos da página */
 #conteiner {
   width: 360px;
   margin: 56px auto;
 }
 
+/* essa é a configuração padrão da div profile */
 #profile {
   text-align: center;
   padding: 24px;
 }
 
+/* essa é a estilização da minha foto na página */
 #profile img {
   width: 112px;
 }
 
+/* essa é a configuração para o @Sunwhver abaixo da foto */
 #profile p {
   font-weight: 500;
   font-size: 16px;
@@ -46,7 +52,8 @@ ul {
   padding: 24px 0;
 }
 
-ul li a{
+/* alterações para os botões da lista de links */
+ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,18 +68,21 @@ ul li a{
   transition: background 0.3s;
 }
 
+/* hover para os botões da lista de links */
 ul li a:hover {
   background-color: rgb(255, 255, 255, 0.05);
   border: 1.5px solid #fff;
 }
 
-#social-links{
+/* div com os ícones de redes sociais */
+#social-links {
   display: flex;
   justify-content: center;
   padding: 24px 0;
   font-size: 24px;
 }
 
+/* configuração dos botões/ ícones da div de redes sociais */
 #social-links a {
   display: flex;
   align-items: center;
@@ -80,14 +90,15 @@ ul li a:hover {
   padding: 16px;
   transition: background 0.3b s;
   border-radius: 50%;
-
 }
 
-#social-links a:hover{
+/* estilo dos botões no hover - adiciona o fundo cinza redondo no ícone */
+#social-links a:hover {
   background: rgba(255, 255, 255, 0.2);
   padding: 16px;
 }
 
+/* rodapé da página */
 footer {
   padding: 24px 0;
   text-align: center;

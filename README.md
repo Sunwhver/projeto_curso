@@ -32,6 +32,13 @@
 ##### Acredito que a estrutura da página, no modo padrão da página, modo esturo, está pronta. Agora, o próximo passo será definir algumas seções e conteúdos adicionais que desejo incluir, como os projetos nos quais participei e links futuros. O curso está em andamento, e vejo que a página está tomando uma boa forma para a sua finalização.
 <br>
 
+<h3 style="font-weight: 700"> Quarto commit</h3>
+
+##### Este commit foi feito para ajustar a indentação do código e adicionar comentários no arquivo style.css. Também realizei algumas modificações nas configurações do arquivo settings.json do projeto, visando uma melhor organização e facilitar minha navegação no código. Essas mudanças foram feitas para garantir uma estrutura mais clara antes de iniciar a segunda parte do curso, que envolve a implementação do modo claro da página.
+<br>
+
+
+
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">             
 <br>
@@ -47,7 +54,7 @@
 <p align="center">
     <!-- botão para o fotor - recortes e edição de imagens -->
     <a href="https://www.fotor.com" >
-        <img src="https://pub-static.fotor.com/static/web/lib/fotor-bundle/6ce130d2365d8b44a294.svg" alt="logo do site fotor"/>
+        <img width="48" height="48" src="https://img.icons8.com/fluency/48/rgb-circle-2.png" alt="logo modificada do fotor.com"/>
     </a>
     <!-- botão para o figma - visualização do projeto para construção -->
     <a href="https://www.figma.com">
@@ -55,7 +62,7 @@
     </a>
     <!-- botão Notion para anotações sobre o trabalho e para o link de portfólio e perfil-->
     <a href="https://www.notion.com">
-        <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/notion.png" alt="logo do Notion"/>
+        <img width="45" height="45" src="https://img.icons8.com/stickers/100/notion.png" alt="logo do Notion"/>
     </a>
     <!-- botão drive - usado para salvar e baixar imagens com maior qualidade -->
     <a href="https://drive.google.com">
