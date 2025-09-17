@@ -23,13 +23,21 @@
 ##### Neste commit, foi criada a lista de links com redes sociais e documentos de apoio no Notion, visando um maior detalhamento do projeto. Para isso, busquei as logos dos aplicativos/sites que estou utilizando até o momento, como Notion, Figma e o Google Drive, utilizado para exportação de imagens. Inicialmente, as logos seriam armazenadas na pasta "assets" do projeto, porém, devido à dificuldade em encontrar boas imagens, optei por utilizar ícones do site Icons8.
 
 ##### Fiz também algumas alterações na imagem de avatar que havia adicionado no primeiro commit. A imagem foi mantida centralizada e, abaixo dela, acrescentei o meu @ do Instagram. Também estilizei a lista de links, que já está devidamente configurada com os links necessários para esta página. Cada botão da lista está funcional e linkado conforme necessário.
+<br>
+
+<h3 style="font-weight: 700"> Terceiro commit</h3>
+
+##### A revisão do código para o terceiro commit incluiu a implementação de ícones para as redes sociais, que agora estão devidamente linkados. Além disso, fiz ajustes na lista de links, removendo alguns itens, e também criei o rodapé da página. Suavizei os estilos de alguns elementos, adicionei um efeito hover nos botões das redes sociais e fiz pequenas mudanças para personalizar o layout de acordo com meu gosto.
+
+##### Acredito que a estrutura da página, no modo padrão da página, modo esturo, está pronta. Agora, o próximo passo será definir algumas seções e conteúdos adicionais que desejo incluir, como os projetos nos quais participei e links futuros. O curso está em andamento, e vejo que a página está tomando uma boa forma para a sua finalização.
+<br>
 
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">             
 <br>
 
 <!-- Links de sites usados nesse projeto -->
-<h3 align="center">Ferramentas utilizadas:</h3><br>
+<h2 style="font-weight:700" align="center">Ferramentas utilizadas:</h2><br>
 <!-- fotor -->
 <p align="center">
     <a href="https://www.rocketseat.com.br/discover">
@@ -56,5 +64,9 @@
     <!-- botão icons8 - usado para pegar links de logos (como as desses botões) -->
     <a href="https://icons8.com">
         <img width="48" height="48" src="https://img.icons8.com/color/48/icons8-new-logo.png" alt="icons8-new-logo"/>
+    </a>
+    <!-- botão ionicon - usado para os icones de redes sociais -->
+    <a href="https://ionic.io">
+        <img width="48" height="48" src="https://img.icons8.com/color/48/ionic.png" alt="ionic"/>
     </a>
 </p>
