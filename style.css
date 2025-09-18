@@ -6,22 +6,22 @@
 
 :root {
   --text-color: #fff; /* branco - white */
-  --bg-url: url(/projeto_curso/assets/bg-desktop.jpg);
+  --bg-url: url('assets/bg-desktop.jpg');
   --stroke-color: rgba(255, 255, 255, 0.5); /* é a borda da lista no normal */
   --surface-color: rgba(255, 255, 255, 0.1); /* é o background da lista */
   --surface-color-hover: rgba(255, 255, 255 255, 0.05); /* background no hover */
   --highlight-color: rgba(255, 255, 255, 0.2); /* esse é o fundo/ hover dos ícones de redes sociais */
-  --switch-bg-url: url(/projeto_curso/assets/moon-stars.svg); /* esse é o botão de lua para o modo escuro */
+  --switch-bg-url: url('assets/moon-stars.svg'); /* esse é o botão de lua para o modo escuro */
 } 
 
 .light {
   --text-color: #000;
-  --bg-url: url(/projeto_curso/assets/bg-desktop-light.jpg);
+  --bg-url: url('assets/bg-desktop-light.jpg');
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/projeto_curso/assets/sun.svg);
+  --switch-bg-url: url('assets/sun.svg');
 }
 
 /* configuração do plano de fundo - roxo - da página */
