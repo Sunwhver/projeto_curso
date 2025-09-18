@@ -159,7 +159,25 @@ ul li a:hover {
 
 /* rodapé da página */
 footer {
-  padding: 24px 0;
-  text-align: center;
-  font-size: 14px;
+  display: flex;                       /* Organiza os itens do rodapé em linha (horizontal) */
+  justify-content: center;             /* Centraliza o conteúdo dentro do rodapé */
+  align-items: center;                 /* Alinha o conteúdo verticalmente ao centro */
+  padding: 24px 0;                     /* Adiciona espaço ao redor do rodapé */
+  font-size: 14px;                     /* Tamanho da fonte */
+  color: var(--text-color);            /* Cor do texto, depende do modo claro ou escuro */
+}
+
+#footer-box {
+  display: flex;                       /* Usa flexbox para organizar o conteúdo dentro de #footer-box */
+  align-items: center;                 /* Alinha os itens verticalmente ao centro */
+  justify-content: center;             /* Centraliza os itens horizontalmente */
+  padding: 12px 24px;                  /* Espaçamento interno para #footer-box */
+}
+
+#footer-box p {
+  font-size: 12px;                     /* Tamanho da fonte do texto no rodapé */
+  color: var(--text-color);            /* Cor do texto dependendo do modo claro ou escuro */
+  margin-bottom: 10px;                           /* Remove margens para um layout mais limpo */
+  line-height: 1.5;  
+  text-align: center;                  /* Aumenta o espaçamento entre as linhas */
 }

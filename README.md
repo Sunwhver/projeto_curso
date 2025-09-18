@@ -37,13 +37,32 @@
 ##### Este commit foi feito para ajustar a indentação do código e adicionar comentários no arquivo style.css. Também realizei algumas modificações nas configurações do arquivo settings.json do projeto, visando uma melhor organização e facilitar minha navegação no código. Essas mudanças foram feitas para garantir uma estrutura mais clara antes de iniciar a segunda parte do curso, que envolve a implementação do modo claro da página.
 <br>
 
-<h3 style="font-weight: 700"> Quinto commit</h3>
+<h3 style="font-weight: 700">Quinto commit</h3>
 
 ##### Este commit marca o início da implementação do modo claro (light mode) no site. Foram realizados pequenos ajustes no CSS, incluindo alterações de URLs, imagens e a adição de um botão de alternância (switch) entre os modos claro e escuro.
 
 ##### O botão já altera ícone e posição de acordo com a classe definida no <html> (light ou dark), mas ainda não está funcional. Além disso, foram feitas modificações sutis, como a conversão de cores, gradientes e outros estilos em variáveis CSS, permitindo que sejam aplicadas de forma diferente quando a classe light estiver ativa.
 
 ##### O botão de switch está visualmente pronto; o próximo passo será implementar sua funcionalidade.
+<br>
+
+<h3 style="font-weight: 700">Sexto commit</h3>
+
+##### Este commit consiste em alterações simples com o objetivo de deixar a página mais organizada para futuras implementações. As mudanças realizadas incluem:
+
+- Atualização dos links para redirecionar para páginas individuais de projetos no meu Notion.
+
+- Adição de novos itens à lista de links.
+
+- Melhorias no rodapé para maior clareza e funcionalidade.
+
+- Verificação e ajustes na indentação do código para manter uma estrutura mais limpa e consistente.
+
+##### Essas alterações é um preparativo antes de iniciar a parte de JavaScript da página. Indo para a reta final do projeto. Alterações que ainda faltam:
+
+- Mudança de foto de avatar ao mudar do tema dark para o light.
+
+- Funcionalidade do botão switch.
 <br>
 
 
@@ -83,5 +102,8 @@
     <!-- botão ionicon - usado para os icones de redes sociais -->
     <a href="https://ionic.io">
         <img width="48" height="48" src="https://img.icons8.com/color/48/ionic.png" alt="ionic"/>
+    </a>
+    <a href="https://phosphoricons.com">
+        <img width="50" height="50" src="https://img.icons8.com/cute-clipart/64/p.png" alt="logo substituta para phosphor"/>
     </a>
 </p>
