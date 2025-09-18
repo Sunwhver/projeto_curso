@@ -78,31 +78,6 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">             
 <br>
 
-<h2 style="font-weight:700" align="center">Prévia de imagens da página:</h2><br>
-
-<!-- foto do modo escuro da página -->
-<p>
-Modo escuro da página:
-    <p align="center">
-        <img alt="imagem do projeto em darkMode" src=".github/darkMode.png" />
-    </p>
-</p>
-
-<br>
-
-<!-- foto do modo claro da página -->
-<p>
-Modo claro da página:
-    <p align="center">
-        <img alt="imagem do projeto em lightMode" src=".github/lightMode.png" />
-    </p>
-</p>
-<br>
-
-<p  align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">             
-<br>
-
 <!-- Links de sites usados nesse projeto -->
 <h2 style="font-weight:700" align="center">Ferramentas utilizadas:</h2><br>
 <!-- fotor -->
