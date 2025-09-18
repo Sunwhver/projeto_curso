@@ -40,8 +40,10 @@ body * {
 
 /* essa é a configuração da caixa padrão onde colocamos todos os elementos da página */
 #conteiner {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto;
+  padding: 0 24px;
 }
 
 /* essa é a configuração padrão da div profile */
@@ -81,12 +83,16 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+  animation: slide-out 0.4s;
 }
 
 /* vai fazer com que o botão passe de um lado ao outro quando mudar de light para o dark */
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 /* esse é aquele fundo de botão de tema, para parecer um botão deslizante */
@@ -159,25 +165,56 @@ ul li a:hover {
 
 /* rodapé da página */
 footer {
-  display: flex;                       /* Organiza os itens do rodapé em linha (horizontal) */
-  justify-content: center;             /* Centraliza o conteúdo dentro do rodapé */
-  align-items: center;                 /* Alinha o conteúdo verticalmente ao centro */
-  padding: 24px 0;                     /* Adiciona espaço ao redor do rodapé */
-  font-size: 14px;                     /* Tamanho da fonte */
-  color: var(--text-color);            /* Cor do texto, depende do modo claro ou escuro */
+  display: flex;
+  justify-content: center; 
+  align-items: center;              
+  padding: 24px 0;                    
+  font-size: 14px;                    
+  color: var(--text-color);            
 }
 
 #footer-box {
-  display: flex;                       /* Usa flexbox para organizar o conteúdo dentro de #footer-box */
-  align-items: center;                 /* Alinha os itens verticalmente ao centro */
-  justify-content: center;             /* Centraliza os itens horizontalmente */
-  padding: 12px 24px;                  /* Espaçamento interno para #footer-box */
+  display: flex;    
+  align-items: center;               
+  justify-content: center;             
+  padding: 12px 24px;                
 }
 
 #footer-box p {
-  font-size: 12px;                     /* Tamanho da fonte do texto no rodapé */
-  color: var(--text-color);            /* Cor do texto dependendo do modo claro ou escuro */
-  margin-bottom: 10px;                           /* Remove margens para um layout mais limpo */
-  line-height: 1.5;  
-  text-align: center;                  /* Aumenta o espaçamento entre as linhas */
+  font-size: 12px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+  line-height: 24px;  
+  text-align: center;
+}
+
+/* responsividade de background */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(/projeto_curso/assets/bg-mobile.jpg);
+  }
+
+  .light {
+    /* estou mantendo a mesmo pois houve granulaçao na imagem e achei feio, consertarei depois */
+    --bg-url: url(/projeto_curso/assets/bg-desktop-light.jpg);
+  }
+}
+
+/* animação no switch */
+@keyframes slide-in {
+  from{
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from{
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }

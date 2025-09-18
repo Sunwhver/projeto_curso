@@ -58,13 +58,21 @@
 
 - Verificação e ajustes na indentação do código para manter uma estrutura mais limpa e consistente.
 
-##### Essas alterações é um preparativo antes de iniciar a parte de JavaScript da página. Indo para a reta final do projeto. Alterações que ainda faltam:
+##### Essas alterações são um preparativo antes de iniciar a parte de JavaScript da página. Indo para a reta final do projeto. Alterações que ainda faltam:
 
 - Mudança de foto de avatar ao mudar do tema dark para o light.
 
 - Funcionalidade do botão switch.
 <br>
 
+<h3 style="font-weight: 700">Sétimo commit</h3>
+
+##### Este commit marca a conclusão de diversas melhorias no projeto. A principal implementação foi a alternância entre os modos claro e escuro, com a criação do arquivo script.js, que permite ao usuário alternar os temas ao clicar no botão de alternância. Além disso, fiz ajustes nas imagens, garantindo que se adaptassem corretamente para ambos os modos. Utilizei media queries para garantir a responsividade das imagens, ajustando-as para diferentes tamanhos de tela.
+
+##### Outra melhoria foi a aplicação de animações no botão de alternância, com o uso de keyframes para uma transição suave e efeitos de hover para interatividade.
+
+##### Com essas alterações, o projeto foi finalizado, com todos os ajustes visuais e funcionais realizados. O link público do projeto foi disponibilizado, permitindo seu uso pessoal. O projeto agora está totalmente funcional, responsivo e com uma experiência de usuário melhorada.
+<br>
 
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">             
@@ -107,3 +115,4 @@
         <img width="50" height="50" src="https://img.icons8.com/cute-clipart/64/p.png" alt="logo substituta para phosphor"/>
     </a>
 </p>
+<br>
