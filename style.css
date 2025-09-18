@@ -4,9 +4,29 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: #fff; /* branco - white */
+  --bg-url: url(/projeto_curso/assets/bg-desktop.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5); /* é a borda da lista no normal */
+  --surface-color: rgba(255, 255, 255, 0.1); /* é o background da lista */
+  --surface-color-hover: rgba(255, 255, 255 255, 0.05); /* background no hover */
+  --highlight-color: rgba(255, 255, 255, 0.2); /* esse é o fundo/ hover dos ícones de redes sociais */
+  --switch-bg-url: url(/projeto_curso/assets/moon-stars.svg); /* esse é o botão de lua para o modo escuro */
+} 
+
+.light {
+  --text-color: #000;
+  --bg-url: url(/projeto_curso/assets/bg-desktop-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(/projeto_curso/assets/sun.svg);
+}
+
 /* configuração do plano de fundo - roxo - da página */
 body {
-  background: url(/projeto_curso/assets/bg-mobile.jpg);
+  background: var(--bg-url);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -15,7 +35,7 @@ body {
 /* configuração de estilo padrão para fonte e cor de textos */
 body * {
   font-family: "Inter", sans-serif;
-  color: #fff;
+  color: var(--text-color);
 }
 
 /* essa é a configuração da caixa padrão onde colocamos todos os elementos da página */
@@ -43,6 +63,45 @@ body * {
   margin-top: 8px;
 }
 
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
+}
+
+/* essa é a configuração do botão que faz o tema mudar de claro para escuro */
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+/* vai fazer com que o botão passe de um lado ao outro quando mudar de light para o dark */
+.light #switch button {
+  right: 0;
+  left: initial;
+}
+
+/* esse é aquele fundo de botão de tema, para parecer um botão deslizante */
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
+
+
 /* lista com os links */
 ul {
   list-style: none;
@@ -58,8 +117,8 @@ ul li a {
   justify-content: center;
   align-items: center;
   padding: 16px 24px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
   border-radius: 10px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -70,8 +129,8 @@ ul li a {
 
 /* hover para os botões da lista de links */
 ul li a:hover {
-  background-color: rgb(255, 255, 255, 0.05);
-  border: 1.5px solid #fff;
+  background-color: var(--surface-color-hover);
+  border: 1.5px solid var(--text-color);
 }
 
 /* div com os ícones de redes sociais */
@@ -94,7 +153,7 @@ ul li a:hover {
 
 /* estilo dos botões no hover - adiciona o fundo cinza redondo no ícone */
 #social-links a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--highlight-color);
   padding: 16px;
 }
 

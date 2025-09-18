@@ -37,6 +37,14 @@
 ##### Este commit foi feito para ajustar a indentação do código e adicionar comentários no arquivo style.css. Também realizei algumas modificações nas configurações do arquivo settings.json do projeto, visando uma melhor organização e facilitar minha navegação no código. Essas mudanças foram feitas para garantir uma estrutura mais clara antes de iniciar a segunda parte do curso, que envolve a implementação do modo claro da página.
 <br>
 
+<h3 style="font-weight: 700"> Quinto commit</h3>
+
+##### Este commit marca o início da implementação do modo claro (light mode) no site. Foram realizados pequenos ajustes no CSS, incluindo alterações de URLs, imagens e a adição de um botão de alternância (switch) entre os modos claro e escuro.
+
+##### O botão já altera ícone e posição de acordo com a classe definida no <html> (light ou dark), mas ainda não está funcional. Além disso, foram feitas modificações sutis, como a conversão de cores, gradientes e outros estilos em variáveis CSS, permitindo que sejam aplicadas de forma diferente quando a classe light estiver ativa.
+
+##### O botão de switch está visualmente pronto; o próximo passo será implementar sua funcionalidade.
+<br>
 
 
 <p  align="center">
